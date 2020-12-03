@@ -37,20 +37,28 @@
   }
 }
 
-/*  */
+/* my styles  */
+
+body {
+  background:#86dbde;
+}
+
+.header {
+  min-height: 5em;
+}
+
 .flex-row {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.donut {
-  max-width: 100px;
-  height: auto;
+.space-inb {
+  justify-content: space-between;
 }
 
-.donut-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
+.space-even {
+  justify-content: space-evenly;
+}
+.shadow {
+  box-shadow: 0 8px 6px -6px black;
 }
