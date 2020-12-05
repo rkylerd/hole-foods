@@ -14,7 +14,7 @@ const Donut = ({name = "", src = "", idx = 0}) => {
     };
 
     const imageZoom = (imgID, resultID) => {
-        var img, lens, result, cx, cy;
+        let img, lens, result, cx, cy;
         img = document.getElementById(imgID);
         result = document.getElementById(resultID);
         result.style.display = 'block';
@@ -37,7 +37,7 @@ const Donut = ({name = "", src = "", idx = 0}) => {
         lens.addEventListener("touchmove", moveLens);
         img.addEventListener("touchmove", moveLens);
         function moveLens(e) {
-          var pos, x, y;
+          let pos, x, y;
           /*prevent any other actions that may occur when moving over the image:*/
           e.preventDefault();
           /*get the cursor's x and y positions:*/
@@ -57,7 +57,8 @@ const Donut = ({name = "", src = "", idx = 0}) => {
           result.style.backgroundPosition = "-" + (x * cx) + "px -" + (y * cy) + "px";
         }
         function getCursorPos(e) {
-          var a, x = 0, y = 0;
+          let a, x = 0, y = 0;
+
           e = e || window.event;
           /*get the x and y positions of the image:*/
           a = img.getBoundingClientRect();

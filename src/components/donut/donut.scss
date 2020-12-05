@@ -6,16 +6,11 @@
     min-width: 100px;
     height: auto;
     margin: 1em;
-    // background-color: #70b6b6;
-//     background: rgb(34,193,195);
-// background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(227,146,156,1) 70%);
-background-image: -webkit-linear-gradient(70deg, #ff99a7 50%, #ecddca 50%);
+    background-image: -webkit-linear-gradient(70deg, #ff99a7 50%, #ecddca 50%);
     div {
         min-height: 3em;
         font-size: 30px;
         color: white; 
-        // #f3a4b3;
-        // -webkit-text-stroke: 1px black;
         text-shadow:
             3px 3px 0 #332412,
             -1px -1px 0 #332412,  
@@ -38,8 +33,6 @@ background-image: -webkit-linear-gradient(70deg, #ff99a7 50%, #ecddca 50%);
 
 .img-zoom-lens {
     position: absolute;
-    border: 1px solid #d4d4d4;
-    /*set the size of the lens:*/
     width: 90px;
     height: 90px;
 }
@@ -49,8 +42,7 @@ background-image: -webkit-linear-gradient(70deg, #ff99a7 50%, #ecddca 50%);
     background-color: #d4d4d4;
     z-index: 100;
     position: absolute;
-    border: 1px solid #d4d4d4;
-    /*set the size of the result div:*/
+    border: 3px solid #332412;
     width: 200px;
     height: 200px;
 }

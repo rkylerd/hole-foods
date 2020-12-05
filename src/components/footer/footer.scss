@@ -1,4 +1,21 @@
 .footer {
     background-color: #ededed;
-    min-height: 4em;
+    min-height: 25vh;
+    .fa-icons-container {
+        width: 300px;
+        margin: auto;
+        a {
+            cursor: pointer;
+            .fa-icon {
+                font-size: 70px;
+                border: 2px solid #332412;
+                border-radius: 50%;
+                width: 90px;
+                height: 90px;
+                padding: 10px;
+                color: #86dbde;
+                background-color: #332412;
+            }
+        }
+    }
 }
